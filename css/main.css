@@ -1,0 +1,137 @@
+@charset "UTF-8";
+@keyframes textAlpha {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.bg_light {
+  background-color: rgb(255, 0, 0);
+}
+
+#botonera {
+  margin-top: 20px;
+}
+#botonera img {
+  width: 100px;
+}
+.link_k a{
+  background-image: linear-gradient(currentColor, currentColor);
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 2%;
+  transition: background-size 0.7s;
+  color: rgb(255, 255, 255);
+}
+.link_k a:hover{
+  color: rgb(0, 0, 0);
+  font-weight: 600;
+  background-size: 100% 2px;
+}
+/* #botonera ul li a:hover {
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+  background-size: 100% 2px;
+} */
+.dropdown-menu{
+  background-color: red;
+}
+h1 {
+  font-size: 3em;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  animation: textAlpha;
+  animation-duration: 2s;
+}
+
+h2 {
+  font-size: 2, 5em;
+}
+
+h1, h2 {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+main section div figure {
+  display: inline-block;
+  margin-left: 40px;
+}
+main section div figure figcaption {
+  margin-left: 0px;
+}
+main section div figure a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+main section div figure a:hover {
+  text-decoration: underline;
+  color: rgb(0, 0, 0);
+}
+
+#productos .galeria {
+  display: flex;
+  margin-top: 50px;
+}
+#productos .galeria figure {
+  text-align: center;
+  margin: 20px;
+  margin-bottom: 50px;
+}
+#productos .galeria figure img {
+  width: 250px;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+.justify-content {
+  justify-content: center;
+}
+
+.categoria {
+  margin-top: 60px;
+  font-size: 4em;
+}
+
+.categoria_imgniño {
+  width: 200px;
+  margin-left: 25px;
+  margin-right: 50px;
+}
+
+.rounded {
+  background-color: rgb(255, 0, 0);
+  margin-bottom: 18px;
+}
+
+.logo_footer {
+  width: 70px;
+}
+
+.copyright, .list-unstyled {
+  margin-top: 18px;
+}
+
+footer div ul li a {
+  color: rgb(0, 0, 0);
+}
+
+footer div div p a {
+  color: rgb(0, 0, 0);
+}
+
+#mapa{
+  padding-top: 10px;
+}
+
+#carrito img{ 
+  width: 40px;
+  padding-top: 3px;
+  padding-left: 5px;
+}
+#carrito a:hover{
+  color: blue;
+}
